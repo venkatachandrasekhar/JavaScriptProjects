@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(169, 165, 241);
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a{
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 85vh;
+    margin-right: 100vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 10%;}
+a:link, a:visited {
+    
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(115, 129, 129);
+  }

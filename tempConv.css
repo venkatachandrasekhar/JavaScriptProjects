@@ -1,0 +1,26 @@
+
+#tcLabel{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tempContainer{
+    background-color: rgba(126, 2, 2, 0.678);
+    text-align: center;
+    margin-top: 100px;
+}
+
+#conversion{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.5em;
+    color: aliceblue;
+    background-color: rgb(161, 201, 247);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+ }
+ #conversion:hover{
+     background-color: rgb(97, 204, 250);
+ }

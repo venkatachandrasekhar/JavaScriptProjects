@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#number{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#counterContainer{
+    text-align: center;
+}
+.button{
+   padding: 10px 20px;
+   margin: 10px;
+   font-size: 1.5em;
+   color: aliceblue;
+   background-color: rgb(247, 161, 161);
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.25s;
+}
+.button:hover{
+    background-color: rgb(250, 97, 97);
+}
